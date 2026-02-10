@@ -255,7 +255,7 @@ export default function Page() {
     if (yesPressed && noCount < 4 && !popupShown) {
       Swal.fire({
         title: "I love you sooo Much!!!❤️",
-        html: "You've stolen my heart completely! 🥰💖 <br/><br/> But itni pyaari ladki aur itni jaldi haan? <br/>Thoda aur nakhre karke mujhe tarpaao na! 🥰✨",
+        html: "You've stolen my heart completely! 🥰💖",
         showClass: {
           popup: `animate__animated animate__fadeInUp animate__faster`
         },
@@ -277,8 +277,8 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount > 3 && !yespopupShown) {
       Swal.fire({
-        title: "Now that you accepted...",
-        html: "did you die.........i still want you to know i love you so much!! ❤️ <br/><br/> You are my everything, my joy, my forever. <br/> Every moment with you is a memory I'll cherish forever, and my heart beats only for you.<br/><br/> And i will be with you in the days that you feel alone or you feel you are not loved enough",
+        title: "Now that you accepted did you die...",
+        html: "i still want you to know i love you so much!! ❤️ <br/><br/> You are my everything, my joy, my forever. <br/> Every moment with you is a memory I'll cherish forever, and my heart beats only for you.<br/><br/> And i will be with you in the days that you feel alone or you feel you are not loved enough",
         width: 800,
         padding: "2.5em",
         color: "#ec4899",
